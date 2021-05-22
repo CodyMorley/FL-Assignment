@@ -136,8 +136,8 @@
 		04F30E312657069F00BA8EC4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04F30E692658A5DD00BA8EC4 /* Cell Views */,
 				04F30E32265706A700BA8EC4 /* Storyboards */,
-				04F30E3A26570C4400BA8EC4 /* ChannelTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +241,14 @@
 				04F30E6226576D9D00BA8EC4 /* FetchPhotoOperation.swift */,
 			);
 			path = Operations;
+			sourceTree = "<group>";
+		};
+		04F30E692658A5DD00BA8EC4 /* Cell Views */ = {
+			isa = PBXGroup;
+			children = (
+				04F30E3A26570C4400BA8EC4 /* ChannelTableViewCell.swift */,
+			);
+			path = "Cell Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

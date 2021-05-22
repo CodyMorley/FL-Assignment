@@ -43,7 +43,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stream Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pds-RP-dct">
-                                                    <rect key="frame" x="73" y="4" width="68.5" height="24"/>
+                                                    <rect key="frame" x="73" y="4" width="269" height="24"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -56,7 +56,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Station Info" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xua-ru-5Zk">
-                                                    <rect key="frame" x="12" y="46" width="64" height="14.5"/>
+                                                    <rect key="frame" x="12" y="46" width="330" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -65,7 +65,9 @@
                                             <constraints>
                                                 <constraint firstItem="JUl-YZ-Hid" firstAttribute="leading" secondItem="uva-SX-tzR" secondAttribute="trailing" id="206-Ys-top"/>
                                                 <constraint firstItem="pds-RP-dct" firstAttribute="top" secondItem="IbL-Tt-aQY" secondAttribute="top" constant="4" id="Ac8-SV-OOD"/>
+                                                <constraint firstItem="DoM-Lk-DdL" firstAttribute="leading" secondItem="pds-RP-dct" secondAttribute="trailing" constant="12" id="PUU-xy-Gyu"/>
                                                 <constraint firstItem="Xua-ru-5Zk" firstAttribute="leading" secondItem="IbL-Tt-aQY" secondAttribute="leading" constant="12" id="SDk-zi-jbU"/>
+                                                <constraint firstItem="DoM-Lk-DdL" firstAttribute="leading" secondItem="Xua-ru-5Zk" secondAttribute="trailing" constant="12" id="T9v-O3-c4E"/>
                                                 <constraint firstItem="uva-SX-tzR" firstAttribute="top" secondItem="IbL-Tt-aQY" secondAttribute="top" constant="4" id="YxX-sP-bNc"/>
                                                 <constraint firstItem="Xua-ru-5Zk" firstAttribute="top" secondItem="uva-SX-tzR" secondAttribute="bottom" constant="18" id="cbT-Wh-z4h"/>
                                                 <constraint firstItem="DoM-Lk-DdL" firstAttribute="centerY" secondItem="IbL-Tt-aQY" secondAttribute="centerY" id="dtD-hn-1T1"/>
@@ -105,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vU-ef-EjN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="355" y="573"/>
+            <point key="canvasLocation" x="353.62318840579712" y="572.54464285714278"/>
         </scene>
         <!--Discover-->
         <scene sceneID="PeY-2U-1i4">
@@ -168,7 +170,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stream Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9v-kN-7we">
-                                                    <rect key="frame" x="73" y="4" width="68.5" height="24"/>
+                                                    <rect key="frame" x="73" y="4" width="270" height="24"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="270" id="Ej6-Ja-viw"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -350,7 +355,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ssd-nb-5ME"/>
+        <segue reference="6I4-QN-vtj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
