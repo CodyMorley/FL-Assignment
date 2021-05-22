@@ -107,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vU-ef-EjN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="353.62318840579712" y="572.54464285714278"/>
+            <point key="canvasLocation" x="-6" y="654"/>
         </scene>
         <!--Discover-->
         <scene sceneID="PeY-2U-1i4">
@@ -171,9 +171,6 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stream Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9v-kN-7we">
                                                     <rect key="frame" x="73" y="4" width="270" height="24"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="270" id="Ej6-Ja-viw"/>
-                                                    </constraints>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -186,7 +183,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Station Info" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQ8-wB-EfD">
-                                                    <rect key="frame" x="12" y="46" width="64" height="14.5"/>
+                                                    <rect key="frame" x="12" y="46" width="327" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -202,8 +199,10 @@
                                                 <constraint firstItem="r9v-kN-7we" firstAttribute="leading" secondItem="Bbp-iB-Th7" secondAttribute="trailing" id="RP9-Vh-moi"/>
                                                 <constraint firstItem="5l5-W0-SEO" firstAttribute="centerY" secondItem="D32-lc-FKQ" secondAttribute="centerY" id="Uyu-5b-HDY"/>
                                                 <constraint firstItem="DTQ-nP-wGp" firstAttribute="top" secondItem="D32-lc-FKQ" secondAttribute="top" constant="4" id="YMP-OV-zNr"/>
+                                                <constraint firstItem="5l5-W0-SEO" firstAttribute="leading" secondItem="kQ8-wB-EfD" secondAttribute="trailing" constant="15" id="co6-z6-91b"/>
                                                 <constraint firstItem="Bbp-iB-Th7" firstAttribute="height" secondItem="DTQ-nP-wGp" secondAttribute="height" id="fhq-hc-Omd"/>
                                                 <constraint firstItem="kQ8-wB-EfD" firstAttribute="top" secondItem="DTQ-nP-wGp" secondAttribute="bottom" constant="18" id="led-Id-Xw1"/>
+                                                <constraint firstItem="5l5-W0-SEO" firstAttribute="leading" secondItem="r9v-kN-7we" secondAttribute="trailing" constant="11" id="nkv-Ok-lq7"/>
                                                 <constraint firstItem="Bbp-iB-Th7" firstAttribute="height" secondItem="r9v-kN-7we" secondAttribute="height" id="zd8-iL-Nog"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -243,7 +242,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bKW-G9-ORx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1120.2898550724638" y="571.875"/>
+            <point key="canvasLocation" x="-865.21739130434787" y="653.57142857142856"/>
         </scene>
         <!--Channel Detail View Controller-->
         <scene sceneID="KGZ-cT-s0K">
@@ -333,7 +332,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s4T-TS-dWZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-364" y="1333"/>
+            <point key="canvasLocation" x="-420" y="1385"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="iaD-H2-oup">
@@ -355,7 +354,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6I4-QN-vtj"/>
+        <segue reference="ssd-nb-5ME"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
